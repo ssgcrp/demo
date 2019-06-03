@@ -7,7 +7,7 @@
     <get url="${protocol}${domain}${endpoint}" params="[:]" var="payload" mode="json" gen="rag">
       <header name="key" value="${key}" gen="rag"/>
     </get>
-    <assert-equals expression="payload_response.statusCode" value="200"/>
+    <assert-equals expression="payload_response.statusCode" value="201"/>
     <assert-equals expression="payload_response.headers[&apos;Content-Type&apos;]" value="application/json; charset=utf-8"/>
     <assert-is expression="payload" type="array" gen="jag"/>
     <each expression="payload.pick(5)" gen="jag">
