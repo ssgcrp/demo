@@ -1,0 +1,17 @@
+hooks:
+- key: localtest
+  url: https://apif.sangitlocal.com/app/api/rest/v3/ad5ab859-3dbb-48b8-9c8e-69a6297da21a913
+  credentials:
+    username: sangit@apifortress.com
+    password: APIFlocal27
+-key: demo
+ url: https://load2.apifortress.com/app/api/rest/v3/3bfbab40-5bd8-4ab8-9374-7dc8945dab6761
+ credentials:
+    username: sangit@apifortress.com
+    password: vg91d9aauveg2plqkh6rn20vsj
+-key: gitdemo
+ url: https://mastiff.apifortress.com/app/api/rest/v3/00f69bd1-f172-4aab-a15b-97d676da4e6b478
+ credentials:
+    username: sangit@apifortress.com
+    password: Apishmapi1
+test_directory: /Users/sangit/Desktop/Tests/demo
